@@ -1,0 +1,74 @@
+{
+	"restaurantList": [
+	  {
+		"toronto": [
+		  {
+			"id": 1,
+			"name": "MacDonalds",
+			"address": "123, Main Street",
+			"cuisine": ["western"],
+			"rating": "4/5"
+		  },
+		  {
+			"name": "Delhi Canadian Rest",
+			"address": "969, Friesen Road",
+			"cuisine": ["canadian"],
+			"rating": "4/5"
+		  },
+		  {
+			"name": "Delhi Chinese Rest",
+			"address": "556, King Street",
+			"cuisine": ["chinese"],
+			"rating": "4/5"
+		  }
+		]
+	  },
+	  {
+		"ottawa": [
+		  {
+			"id": 2,
+			"name": "Delhi Indian Rest",
+			"address": "123 main st",
+			"cuisine": ["indian"],
+			"rating": "4/5"
+		  },
+		  {
+			"name": "Delhi Indian Rest",
+			"address": "123 main st",
+			"cuisine": ["canadian"],
+			"rating": "4/5"
+		  },
+		  {
+			"name": "Delhi Indian Rest",
+			"address": "123 main st",
+			"cuisine": ["chinese"],
+			"rating": "4/5"
+		  }
+		]
+	  },
+	  {
+		"melbourne": [
+		  {
+			"id": 3,
+			"name": "Delhi Indian Rest",
+			"address": "123 main st",
+			"cuisine": ["indian"],
+			"rating": "4/5"
+		  },
+		  {
+			"name": "Delhi Indian Rest",
+			"address": "123 main st",
+			"cuisine": ["canadian"],
+			"rating": "4/5"
+		  },
+		  {
+			"name": "Delhi Indian Rest",
+			"address": "123 main st",
+			"cuisine": ["chinese"],
+			"rating": "4/5"
+		  }
+		]
+	  }
+	]
+  }
+  

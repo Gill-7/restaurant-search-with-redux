@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Provider} from "react-redux";
+import { applyMiddleware, createStore } from 'redux'
+import thunk from 'redux-thunk'
+import restaurantReducer from './reducers/index'
+
+const store = createStore(restaurantReducer,applyMiddleware(thunk));
 
 ReactDOM.render(
-  <React.StrictMode>
+
+    <Provider store={store}>
     <App />
-  </React.StrictMode>,
+    </Provider>
+,
   document.getElementById('root')
 );
 
@@ -15,3 +23,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
